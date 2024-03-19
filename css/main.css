@@ -103,11 +103,13 @@ div,li {
 }
 
 .tarea3 {
-    background-image: url("../images/sample_menu_bg.jpg");
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size: fill;
-    background-position-y: 100%;
+
+  background-image: url("../images/sample_menu_bg.jpg");
+  background-size:cover; /* Para que tome todo el espacio del contenedor*/
+  background-attachment: fixed;
+  background-position-y: 75%;
+  padding: 50px;
+    
 }
 
 .tarea4 {
@@ -143,7 +145,10 @@ div,li {
   background-color: white;
   padding: 20px;
   margin: 20px;
+ 
 }
+
+/*menu coffe*/
 
 .tarea-5-contenedor{
   width: 49%;
